@@ -1,0 +1,17 @@
+# Database
+psycopg[binary] # base package
+psycopg[pool] # for pools
+
+# Outputting
+colorama # formatted colored outputs
+
+# Webserver/API
+uvicorn # starting the app in production environment
+fastapi # base FastAPI webserver libraryy
+Jinja2 # Jinja2 library for HTML and templates support
+
+# Generation
+snowflake-id # generates snowflake IDs used in EcoNuker's Internal IDs
+
+# Request libraries
+aiohttp # async requests
